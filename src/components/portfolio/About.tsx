@@ -106,6 +106,16 @@ const About = () => {
                   efficient code, and continuously improving my backend skills
                   to become a more well-rounded engineer.
                 </p>
+                <div className="pt-4">
+                  <a
+                    href="/assets/laiba.pdf"
+                    download="laiba.pdf"
+                    className="inline-flex items-center gap-2 rounded-md border border-neon/30 bg-background px-4 py-2 font-mono text-xs text-neon-glow transition-all hover:border-neon hover:shadow-[0_0_15px_rgba(5,255,161,0.2)]"
+                  >
+                    <span>./download-cv.sh</span>
+                    <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-neon" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

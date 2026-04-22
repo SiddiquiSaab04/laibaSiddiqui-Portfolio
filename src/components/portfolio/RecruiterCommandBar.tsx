@@ -74,8 +74,8 @@ const RecruiterCommandBar = () => {
   const downloadCV = () => {
     setOpen(false);
     const a = document.createElement("a");
-    a.href = "/laiba-siddiqui-cv.pdf";
-    a.download = "Laiba-Siddiqui-CV.pdf";
+    a.href = "/assets/laiba.pdf";
+    a.download = "laiba.pdf";
     document.body.appendChild(a);
     a.click();
     a.remove();

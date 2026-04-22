@@ -83,6 +83,16 @@ const Experience = () => {
             <p className="mt-4 font-sans-accent text-foreground/65 max-w-lg">
               A short timeline of where I've shipped, what I've built, and the stack I used.
             </p>
+            <div className="mt-6 flex items-center gap-4">
+              <a
+                href="/public/assets/laiba.pdf"
+                download="laiba.pdf"
+                className="flex items-center gap-2 rounded-full border border-neon/50 bg-neon/10 px-6 py-2.5 font-grotesk text-sm text-neon-glow transition-all hover:bg-neon hover:text-background"
+              >
+                <ArrowUpRight className="h-4 w-4 rotate-90" />
+                Download CV
+              </a>
+            </div>
           </div>
           <div className="font-mono text-xs text-foreground/50">
             <span className="text-neon-glow">{roles.length}</span> entries · sorted desc
