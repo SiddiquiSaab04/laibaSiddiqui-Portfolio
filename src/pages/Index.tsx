@@ -16,9 +16,9 @@ const Index = () => {
   const ref = useReveal<HTMLDivElement>();
 
   useEffect(() => {
-    document.title = "Laiba Siddiqui — Frontend Developer Portfolio";
+    document.title = "Laiba Siddiqui — Portfolio";
     const desc =
-      "Portfolio of Laiba Siddiqui, a frontend developer building vibrant, responsive web apps with React, Next.js, Vue and TypeScript.";
+      "Portfolio of Laiba Siddiqui, a full-stack developer building modern, scalable, and responsive web applications with React, Next.js, Vue, TypeScript, and powerful backend solutions.";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement("meta");
