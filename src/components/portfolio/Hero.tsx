@@ -38,15 +38,14 @@ const Hero = () => {
           </span>
 
           <h1 className="mt-8 font-display text-5xl leading-[1.05] tracking-tight md:text-7xl lg:text-[7.5rem] capitalize">
-            <span className="block text-foreground/95">Code <span className="text-neon animate-neon-pulse">{"build"}</span></span>
+            <span className="block text-foreground/95"><span className="text-neon animate-neon-pulse">{" Laiba Siddiqui"}</span></span>
             <span className="block">
-              <span className="text-neon animate-neon-pulse">{"scale"}</span>
-              <span className="font-sans-accent italic font-light text-foreground/85"> repeat </span>
+              <span className="text-foreground/95">{"Fullstack Developer"}</span>
             </span>
           </h1>
 
           <p className="mx-auto mt-10 max-w-2xl font-sans-accent text-lg text-foreground/65 md:text-xl leading-relaxed">
-            Hi, I'm <span className="text-neon-glow font-mono font-medium">Laiba Siddiqui</span> a frontend-focused full-stack developer delivering reliable and user-centered web applications.
+            Hi, I'm <span className="text-neon-glow font-mono font-medium"></span> a frontend-focused full-stack developer delivering reliable and user-centered web applications.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
